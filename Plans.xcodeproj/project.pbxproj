@@ -1,0 +1,742 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B11A93527C530D9009597B4 /* CustomTextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B11A93427C530D9009597B4 /* CustomTextEditor.swift */; };
+		2B1665CF27A9660900A36E71 /* SetsViewDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1665CE27A9660900A36E71 /* SetsViewDetailView.swift */; };
+		2B1C09B827C2D29100AA0B77 /* PublishedPlanShopInfoCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1C09B727C2D29000AA0B77 /* PublishedPlanShopInfoCard.swift */; };
+		2B1EEA0127B04110008BD60A /* StatsEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1EEA0027B04110008BD60A /* StatsEncoder.swift */; };
+		2B2395CB27AC41D100C7D64F /* PlanEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2395CA27AC41D100C7D64F /* PlanEncoder.swift */; };
+		2B28211F27C8F9C800691341 /* EditExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B28211E27C8F9C800691341 /* EditExerciseView.swift */; };
+		2B28212127C9047800691341 /* LegendViewEditExerciseSets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B28212027C9047800691341 /* LegendViewEditExerciseSets.swift */; };
+		2B28212327C9055600691341 /* SetItemViewEdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B28212227C9055600691341 /* SetItemViewEdit.swift */; };
+		2B40ABB027B31751003DA155 /* AddSupersetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B40ABAF27B31751003DA155 /* AddSupersetView.swift */; };
+		2B40ABB227B3184F003DA155 /* AddExerciseModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B40ABB127B3184F003DA155 /* AddExerciseModelView.swift */; };
+		2B40ABB427B3210A003DA155 /* SingleExerciseSupersetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B40ABB327B3210A003DA155 /* SingleExerciseSupersetView.swift */; };
+		2B424E8D27C3CF9D00ED838A /* ShopViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B424E8C27C3CF9D00ED838A /* ShopViewViewModel.swift */; };
+		2B46210F2821524B00E5DCE6 /* SupersetStatsSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B46210E2821524B00E5DCE6 /* SupersetStatsSettingsView.swift */; };
+		2B462111282153AB00E5DCE6 /* SupersetStatsSettingsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B462110282153AB00E5DCE6 /* SupersetStatsSettingsDetailView.swift */; };
+		2B5A3134282155A500B9C6DC /* ExerciseNotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5A3133282155A500B9C6DC /* ExerciseNotesView.swift */; };
+		2B600CC627A9EF8000B2BE18 /* ApiModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B600CC527A9EF8000B2BE18 /* ApiModels.swift */; };
+		2B600CC827A9EF8C00B2BE18 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B600CC727A9EF8C00B2BE18 /* ApiManager.swift */; };
+		2B68E5C927AD5F140091EC86 /* PersonalPlansView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B68E5C827AD5F140091EC86 /* PersonalPlansView.swift */; };
+		2B68E5CD27AD630F0091EC86 /* PlanCloudCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B68E5CC27AD630F0091EC86 /* PlanCloudCardView.swift */; };
+		2B7415CA2821666900F328AB /* SingleSupersetEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7415C92821666900F328AB /* SingleSupersetEditView.swift */; };
+		2B7415CC28216C4500F328AB /* LegendViewEditSupersetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7415CB28216C4500F328AB /* LegendViewEditSupersetView.swift */; };
+		2B78558427B150BB00B1235E /* ExerciseListStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B78558327B150BB00B1235E /* ExerciseListStatsView.swift */; };
+		2B78558627B1545100B1235E /* ExerciseStatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B78558527B1545100B1235E /* ExerciseStatView.swift */; };
+		2B78558927B15A1F00B1235E /* StatsCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B78558827B15A1F00B1235E /* StatsCalculator.swift */; };
+		2B78558F27B1677300B1235E /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 2B78558E27B1677300B1235E /* SwiftUICharts */; };
+		2B86883427A9767800881885 /* LegendViewExerciseSets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B86883327A9767800881885 /* LegendViewExerciseSets.swift */; };
+		2B8A6DDD27A8AC49000158F0 /* PlansApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8A6DDC27A8AC49000158F0 /* PlansApp.swift */; };
+		2B8A6DE127A8AC4B000158F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B8A6DE027A8AC4B000158F0 /* Assets.xcassets */; };
+		2B8A6DE427A8AC4B000158F0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B8A6DE327A8AC4B000158F0 /* Preview Assets.xcassets */; };
+		2B8A6DE627A8AC4B000158F0 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8A6DE527A8AC4B000158F0 /* Persistence.swift */; };
+		2B8A6DE927A8AC4B000158F0 /* Plans.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2B8A6DE727A8AC4B000158F0 /* Plans.xcdatamodeld */; };
+		2B8A6DF027A8AC78000158F0 /* MainTabbedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8A6DEF27A8AC78000158F0 /* MainTabbedView.swift */; };
+		2B8A6DF227A8AC8F000158F0 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8A6DF127A8AC8F000158F0 /* HomeView.swift */; };
+		2B8A6DF427A8ACAE000158F0 /* ExerciseDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8A6DF327A8ACAE000158F0 /* ExerciseDetailView.swift */; };
+		2B8A6DF627A8ACC6000158F0 /* AddExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8A6DF527A8ACC6000158F0 /* AddExerciseView.swift */; };
+		2B8A6DF827A8ACD7000158F0 /* ModelsAddExercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8A6DF727A8ACD7000158F0 /* ModelsAddExercise.swift */; };
+		2B8A6DFA27A8ACE5000158F0 /* AddExerciseSetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8A6DF927A8ACE5000158F0 /* AddExerciseSetView.swift */; };
+		2B8A6DFC27A8ACFB000158F0 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8A6DFB27A8ACFB000158F0 /* CoreDataManager.swift */; };
+		2B8EBC3C28218345005F47B9 /* EditSupersetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8EBC3B28218345005F47B9 /* EditSupersetView.swift */; };
+		2B9071A328213A3E006DA070 /* ExerciseStatsSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9071A228213A3E006DA070 /* ExerciseStatsSettingsView.swift */; };
+		2B9071A528214148006DA070 /* ExerciseStatsSettingsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9071A428214148006DA070 /* ExerciseStatsSettingsDetailView.swift */; };
+		2B91AB0B27A9805200B611F4 /* PlansView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B91AB0A27A9805200B611F4 /* PlansView.swift */; };
+		2B91AB0D27A981E600B611F4 /* CurrentPlanManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B91AB0C27A981E600B611F4 /* CurrentPlanManager.swift */; };
+		2B91AB0F27A982B800B611F4 /* PlanViewDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B91AB0E27A982B800B611F4 /* PlanViewDetail.swift */; };
+		2B91AB1127A982DD00B611F4 /* AddPlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B91AB1027A982DD00B611F4 /* AddPlanView.swift */; };
+		2B91AB1427A98AF100B611F4 /* NotificationsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B91AB1327A98AF100B611F4 /* NotificationsManager.swift */; };
+		2B91AB1627A98B5900B611F4 /* FilteredListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B91AB1527A98B5900B611F4 /* FilteredListView.swift */; };
+		2B91AB1827A98E0900B611F4 /* PickerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B91AB1727A98E0900B611F4 /* PickerManager.swift */; };
+		2B91AB1A27A99D0200B611F4 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B91AB1927A99D0200B611F4 /* TimerView.swift */; };
+		2B99D19527AC2B4400E43AAE /* InternetConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B99D19427AC2B4400E43AAE /* InternetConnectionManager.swift */; };
+		2B9E7E8827CE779800E0715A /* ExerciseStatsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9E7E8727CE779800E0715A /* ExerciseStatsDetailView.swift */; };
+		2B9E7E8A27CE791600E0715A /* SupersetStatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9E7E8927CE791600E0715A /* SupersetStatView.swift */; };
+		2B9E7E8C27CE85C000E0715A /* SingleSupersetStatsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9E7E8B27CE85C000E0715A /* SingleSupersetStatsDetailView.swift */; };
+		2B9E7E8E27CE9EE000E0715A /* StatsCalculatorSupersets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B9E7E8D27CE9EDF00E0715A /* StatsCalculatorSupersets.swift */; };
+		2BAE4C0E27C1372100A7B519 /* ShopFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAE4C0D27C1372100A7B519 /* ShopFilterView.swift */; };
+		2BAE4C1027C13DB700A7B519 /* ShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BAE4C0F27C13DB700A7B519 /* ShopView.swift */; };
+		2BB0C63127A9A367004A1701 /* PlanCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB0C63027A9A367004A1701 /* PlanCard.swift */; };
+		2BC21F2927B32F5A0007C002 /* FilteredExerciseDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC21F2827B32F5A0007C002 /* FilteredExerciseDetailView.swift */; };
+		2BC21F2B27B330680007C002 /* SupersetExerciseDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC21F2A27B330680007C002 /* SupersetExerciseDetailView.swift */; };
+		2BC7E34027B53857002C53E7 /* ExercisesDBList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC7E33F27B53857002C53E7 /* ExercisesDBList.swift */; };
+		2BD3C85427B0297D004C4BC1 /* SetItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD3C85327B0297D004C4BC1 /* SetItemView.swift */; };
+		2BD3C85627B02A6B004C4BC1 /* SetItemTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD3C85527B02A6B004C4BC1 /* SetItemTextFieldView.swift */; };
+		2BD40B4E27C59BE500A24ADB /* UpdatePlanNotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD40B4D27C59BE500A24ADB /* UpdatePlanNotesView.swift */; };
+		2BD5A32A27B3F6FF0038EC78 /* AddSupersetSetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD5A32927B3F6FF0038EC78 /* AddSupersetSetsView.swift */; };
+		2BD5A32E27B41A130038EC78 /* SetsViewDetailViewSuperset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD5A32D27B41A130038EC78 /* SetsViewDetailViewSuperset.swift */; };
+		2BD5A33027B4244E0038EC78 /* LegendViewSupersetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD5A32F27B4244E0038EC78 /* LegendViewSupersetView.swift */; };
+		2BD5A33227B42FD20038EC78 /* SupersetDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD5A33127B42FD20038EC78 /* SupersetDetailView.swift */; };
+		2BE08D8027BFDB29006D2E74 /* PublishedPlansView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE08D7F27BFDB29006D2E74 /* PublishedPlansView.swift */; };
+		2BE08D8227BFE499006D2E74 /* PublishedPlanCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE08D8127BFE499006D2E74 /* PublishedPlanCardView.swift */; };
+		2BE275C428291A25005A0EE6 /* ShopPlanDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE275C328291A25005A0EE6 /* ShopPlanDetailView.swift */; };
+		2BE275C628291E6D005A0EE6 /* SingleDayShopPlanPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE275C528291E6D005A0EE6 /* SingleDayShopPlanPreview.swift */; };
+		2BE33B6927AC1CB70022CDEB /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE33B6827AC1CB70022CDEB /* LoginView.swift */; };
+		2BE33B6B27AC1CC10022CDEB /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE33B6A27AC1CC10022CDEB /* RegisterView.swift */; };
+		2BE33B6E27AC1D3A0022CDEB /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE33B6D27AC1D3A0022CDEB /* LoginViewModel.swift */; };
+		2BE33B7027AC1D5E0022CDEB /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE33B6F27AC1D5E0022CDEB /* RegisterViewModel.swift */; };
+		2BE33B7227AC1E000022CDEB /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE33B7127AC1E000022CDEB /* FirstView.swift */; };
+		2BE33B7427AC204A0022CDEB /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE33B7327AC204A0022CDEB /* AccountView.swift */; };
+		2BFD68D627AEBB2B004B28BB /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFD68D527AEBB2B004B28BB /* Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B11A93427C530D9009597B4 /* CustomTextEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextEditor.swift; sourceTree = "<group>"; };
+		2B1665CE27A9660900A36E71 /* SetsViewDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetsViewDetailView.swift; sourceTree = "<group>"; };
+		2B1C09B727C2D29000AA0B77 /* PublishedPlanShopInfoCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishedPlanShopInfoCard.swift; sourceTree = "<group>"; };
+		2B1EEA0027B04110008BD60A /* StatsEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsEncoder.swift; sourceTree = "<group>"; };
+		2B2395CA27AC41D100C7D64F /* PlanEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanEncoder.swift; sourceTree = "<group>"; };
+		2B28211E27C8F9C800691341 /* EditExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditExerciseView.swift; sourceTree = "<group>"; };
+		2B28212027C9047800691341 /* LegendViewEditExerciseSets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegendViewEditExerciseSets.swift; sourceTree = "<group>"; };
+		2B28212227C9055600691341 /* SetItemViewEdit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetItemViewEdit.swift; sourceTree = "<group>"; };
+		2B40ABAF27B31751003DA155 /* AddSupersetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSupersetView.swift; sourceTree = "<group>"; };
+		2B40ABB127B3184F003DA155 /* AddExerciseModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExerciseModelView.swift; sourceTree = "<group>"; };
+		2B40ABB327B3210A003DA155 /* SingleExerciseSupersetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleExerciseSupersetView.swift; sourceTree = "<group>"; };
+		2B424E8C27C3CF9D00ED838A /* ShopViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopViewViewModel.swift; sourceTree = "<group>"; };
+		2B46210E2821524B00E5DCE6 /* SupersetStatsSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupersetStatsSettingsView.swift; sourceTree = "<group>"; };
+		2B462110282153AB00E5DCE6 /* SupersetStatsSettingsDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupersetStatsSettingsDetailView.swift; sourceTree = "<group>"; };
+		2B5A3133282155A500B9C6DC /* ExerciseNotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseNotesView.swift; sourceTree = "<group>"; };
+		2B600CC527A9EF8000B2BE18 /* ApiModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiModels.swift; sourceTree = "<group>"; };
+		2B600CC727A9EF8C00B2BE18 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		2B68E5C827AD5F140091EC86 /* PersonalPlansView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalPlansView.swift; sourceTree = "<group>"; };
+		2B68E5CC27AD630F0091EC86 /* PlanCloudCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanCloudCardView.swift; sourceTree = "<group>"; };
+		2B7415C92821666900F328AB /* SingleSupersetEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleSupersetEditView.swift; sourceTree = "<group>"; };
+		2B7415CB28216C4500F328AB /* LegendViewEditSupersetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegendViewEditSupersetView.swift; sourceTree = "<group>"; };
+		2B78558327B150BB00B1235E /* ExerciseListStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseListStatsView.swift; sourceTree = "<group>"; };
+		2B78558527B1545100B1235E /* ExerciseStatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseStatView.swift; sourceTree = "<group>"; };
+		2B78558827B15A1F00B1235E /* StatsCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsCalculator.swift; sourceTree = "<group>"; };
+		2B86883327A9767800881885 /* LegendViewExerciseSets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegendViewExerciseSets.swift; sourceTree = "<group>"; };
+		2B8A6DD927A8AC49000158F0 /* Plans.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Plans.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B8A6DDC27A8AC49000158F0 /* PlansApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlansApp.swift; sourceTree = "<group>"; };
+		2B8A6DE027A8AC4B000158F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B8A6DE327A8AC4B000158F0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2B8A6DE527A8AC4B000158F0 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		2B8A6DE827A8AC4B000158F0 /* PlansNew.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PlansNew.xcdatamodel; sourceTree = "<group>"; };
+		2B8A6DEF27A8AC78000158F0 /* MainTabbedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabbedView.swift; sourceTree = "<group>"; };
+		2B8A6DF127A8AC8F000158F0 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		2B8A6DF327A8ACAE000158F0 /* ExerciseDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseDetailView.swift; sourceTree = "<group>"; };
+		2B8A6DF527A8ACC6000158F0 /* AddExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExerciseView.swift; sourceTree = "<group>"; };
+		2B8A6DF727A8ACD7000158F0 /* ModelsAddExercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelsAddExercise.swift; sourceTree = "<group>"; };
+		2B8A6DF927A8ACE5000158F0 /* AddExerciseSetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExerciseSetView.swift; sourceTree = "<group>"; };
+		2B8A6DFB27A8ACFB000158F0 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		2B8EBC3B28218345005F47B9 /* EditSupersetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditSupersetView.swift; sourceTree = "<group>"; };
+		2B9071A228213A3E006DA070 /* ExerciseStatsSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseStatsSettingsView.swift; sourceTree = "<group>"; };
+		2B9071A428214148006DA070 /* ExerciseStatsSettingsDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseStatsSettingsDetailView.swift; sourceTree = "<group>"; };
+		2B91AB0A27A9805200B611F4 /* PlansView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlansView.swift; sourceTree = "<group>"; };
+		2B91AB0C27A981E600B611F4 /* CurrentPlanManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentPlanManager.swift; sourceTree = "<group>"; };
+		2B91AB0E27A982B800B611F4 /* PlanViewDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanViewDetail.swift; sourceTree = "<group>"; };
+		2B91AB1027A982DD00B611F4 /* AddPlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlanView.swift; sourceTree = "<group>"; };
+		2B91AB1327A98AF100B611F4 /* NotificationsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsManager.swift; sourceTree = "<group>"; };
+		2B91AB1527A98B5900B611F4 /* FilteredListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilteredListView.swift; sourceTree = "<group>"; };
+		2B91AB1727A98E0900B611F4 /* PickerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerManager.swift; sourceTree = "<group>"; };
+		2B91AB1927A99D0200B611F4 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		2B99D19427AC2B4400E43AAE /* InternetConnectionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetConnectionManager.swift; sourceTree = "<group>"; };
+		2B9E7E8727CE779800E0715A /* ExerciseStatsDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseStatsDetailView.swift; sourceTree = "<group>"; };
+		2B9E7E8927CE791600E0715A /* SupersetStatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupersetStatView.swift; sourceTree = "<group>"; };
+		2B9E7E8B27CE85C000E0715A /* SingleSupersetStatsDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleSupersetStatsDetailView.swift; sourceTree = "<group>"; };
+		2B9E7E8D27CE9EDF00E0715A /* StatsCalculatorSupersets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsCalculatorSupersets.swift; sourceTree = "<group>"; };
+		2BAE4C0D27C1372100A7B519 /* ShopFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopFilterView.swift; sourceTree = "<group>"; };
+		2BAE4C0F27C13DB700A7B519 /* ShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopView.swift; sourceTree = "<group>"; };
+		2BB0C63027A9A367004A1701 /* PlanCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanCard.swift; sourceTree = "<group>"; };
+		2BC21F2827B32F5A0007C002 /* FilteredExerciseDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilteredExerciseDetailView.swift; sourceTree = "<group>"; };
+		2BC21F2A27B330680007C002 /* SupersetExerciseDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupersetExerciseDetailView.swift; sourceTree = "<group>"; };
+		2BC7E33F27B53857002C53E7 /* ExercisesDBList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisesDBList.swift; sourceTree = "<group>"; };
+		2BD3C85327B0297D004C4BC1 /* SetItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetItemView.swift; sourceTree = "<group>"; };
+		2BD3C85527B02A6B004C4BC1 /* SetItemTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetItemTextFieldView.swift; sourceTree = "<group>"; };
+		2BD40B4D27C59BE500A24ADB /* UpdatePlanNotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatePlanNotesView.swift; sourceTree = "<group>"; };
+		2BD5A32927B3F6FF0038EC78 /* AddSupersetSetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSupersetSetsView.swift; sourceTree = "<group>"; };
+		2BD5A32D27B41A130038EC78 /* SetsViewDetailViewSuperset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetsViewDetailViewSuperset.swift; sourceTree = "<group>"; };
+		2BD5A32F27B4244E0038EC78 /* LegendViewSupersetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegendViewSupersetView.swift; sourceTree = "<group>"; };
+		2BD5A33127B42FD20038EC78 /* SupersetDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupersetDetailView.swift; sourceTree = "<group>"; };
+		2BE08D7F27BFDB29006D2E74 /* PublishedPlansView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishedPlansView.swift; sourceTree = "<group>"; };
+		2BE08D8127BFE499006D2E74 /* PublishedPlanCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishedPlanCardView.swift; sourceTree = "<group>"; };
+		2BE275C328291A25005A0EE6 /* ShopPlanDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopPlanDetailView.swift; sourceTree = "<group>"; };
+		2BE275C528291E6D005A0EE6 /* SingleDayShopPlanPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleDayShopPlanPreview.swift; sourceTree = "<group>"; };
+		2BE33B6127AC0D190022CDEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2BE33B6827AC1CB70022CDEB /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		2BE33B6A27AC1CC10022CDEB /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		2BE33B6D27AC1D3A0022CDEB /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		2BE33B6F27AC1D5E0022CDEB /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
+		2BE33B7127AC1E000022CDEB /* FirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstView.swift; sourceTree = "<group>"; };
+		2BE33B7327AC204A0022CDEB /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		2BFD68D527AEBB2B004B28BB /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B8A6DD627A8AC49000158F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B78558F27B1677300B1235E /* SwiftUICharts in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B600CC427A9EF6700B2BE18 /* ApiManager */ = {
+			isa = PBXGroup;
+			children = (
+				2B2395CA27AC41D100C7D64F /* PlanEncoder.swift */,
+				2B1EEA0027B04110008BD60A /* StatsEncoder.swift */,
+				2B600CC527A9EF8000B2BE18 /* ApiModels.swift */,
+				2B600CC727A9EF8C00B2BE18 /* ApiManager.swift */,
+			);
+			path = ApiManager;
+			sourceTree = "<group>";
+		};
+		2B78558727B15A0500B1235E /* StatsCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				2B78558827B15A1F00B1235E /* StatsCalculator.swift */,
+				2B9E7E8D27CE9EDF00E0715A /* StatsCalculatorSupersets.swift */,
+			);
+			path = StatsCalculator;
+			sourceTree = "<group>";
+		};
+		2B8A6DD027A8AC49000158F0 = {
+			isa = PBXGroup;
+			children = (
+				2B8A6DDB27A8AC49000158F0 /* Plans */,
+				2B8A6DDA27A8AC49000158F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B8A6DDA27A8AC49000158F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B8A6DD927A8AC49000158F0 /* Plans.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B8A6DDB27A8AC49000158F0 /* Plans */ = {
+			isa = PBXGroup;
+			children = (
+				2BE33B6127AC0D190022CDEB /* Info.plist */,
+				2B8A6DDC27A8AC49000158F0 /* PlansApp.swift */,
+				2BE33B6427AC16F20022CDEB /* Views */,
+				2BE33B6C27AC1D160022CDEB /* ViewModels */,
+				2B600CC427A9EF6700B2BE18 /* ApiManager */,
+				2B91AB1227A98AE100B611F4 /* Notifications */,
+				2B91AB0927A97D6500B611F4 /* Models */,
+				2B78558727B15A0500B1235E /* StatsCalculator */,
+				2B91AB0827A97D5500B611F4 /* CoreData */,
+				2B8A6DE027A8AC4B000158F0 /* Assets.xcassets */,
+				2B8A6DE727A8AC4B000158F0 /* Plans.xcdatamodeld */,
+				2B8A6DE227A8AC4B000158F0 /* Preview Content */,
+			);
+			path = Plans;
+			sourceTree = "<group>";
+		};
+		2B8A6DE227A8AC4B000158F0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2B8A6DE327A8AC4B000158F0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2B91AB0827A97D5500B611F4 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				2B8A6DE527A8AC4B000158F0 /* Persistence.swift */,
+				2B8A6DFB27A8ACFB000158F0 /* CoreDataManager.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		2B91AB0927A97D6500B611F4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2B8A6DF727A8ACD7000158F0 /* ModelsAddExercise.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2B91AB1227A98AE100B611F4 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				2B91AB1327A98AF100B611F4 /* NotificationsManager.swift */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		2BE33B6427AC16F20022CDEB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2B91AB1727A98E0900B611F4 /* PickerManager.swift */,
+				2B91AB0C27A981E600B611F4 /* CurrentPlanManager.swift */,
+				2B99D19427AC2B4400E43AAE /* InternetConnectionManager.swift */,
+				2B8A6DEF27A8AC78000158F0 /* MainTabbedView.swift */,
+				2BE33B7327AC204A0022CDEB /* AccountView.swift */,
+				2B68E5C827AD5F140091EC86 /* PersonalPlansView.swift */,
+				2BE08D7F27BFDB29006D2E74 /* PublishedPlansView.swift */,
+				2BAE4C0F27C13DB700A7B519 /* ShopView.swift */,
+				2BE275C328291A25005A0EE6 /* ShopPlanDetailView.swift */,
+				2BE275C528291E6D005A0EE6 /* SingleDayShopPlanPreview.swift */,
+				2BAE4C0D27C1372100A7B519 /* ShopFilterView.swift */,
+				2B78558327B150BB00B1235E /* ExerciseListStatsView.swift */,
+				2B9E7E8727CE779800E0715A /* ExerciseStatsDetailView.swift */,
+				2B78558527B1545100B1235E /* ExerciseStatView.swift */,
+				2B9071A228213A3E006DA070 /* ExerciseStatsSettingsView.swift */,
+				2B9071A428214148006DA070 /* ExerciseStatsSettingsDetailView.swift */,
+				2B9E7E8927CE791600E0715A /* SupersetStatView.swift */,
+				2B9E7E8B27CE85C000E0715A /* SingleSupersetStatsDetailView.swift */,
+				2B46210E2821524B00E5DCE6 /* SupersetStatsSettingsView.swift */,
+				2B462110282153AB00E5DCE6 /* SupersetStatsSettingsDetailView.swift */,
+				2BE33B6827AC1CB70022CDEB /* LoginView.swift */,
+				2BE33B7127AC1E000022CDEB /* FirstView.swift */,
+				2BE33B6A27AC1CC10022CDEB /* RegisterView.swift */,
+				2BC7E33F27B53857002C53E7 /* ExercisesDBList.swift */,
+				2B8A6DF127A8AC8F000158F0 /* HomeView.swift */,
+				2B91AB1527A98B5900B611F4 /* FilteredListView.swift */,
+				2BC21F2827B32F5A0007C002 /* FilteredExerciseDetailView.swift */,
+				2BD5A33127B42FD20038EC78 /* SupersetDetailView.swift */,
+				2B8EBC3B28218345005F47B9 /* EditSupersetView.swift */,
+				2B7415C92821666900F328AB /* SingleSupersetEditView.swift */,
+				2B8A6DF327A8ACAE000158F0 /* ExerciseDetailView.swift */,
+				2B5A3133282155A500B9C6DC /* ExerciseNotesView.swift */,
+				2B28211E27C8F9C800691341 /* EditExerciseView.swift */,
+				2BC21F2A27B330680007C002 /* SupersetExerciseDetailView.swift */,
+				2B86883327A9767800881885 /* LegendViewExerciseSets.swift */,
+				2B28212027C9047800691341 /* LegendViewEditExerciseSets.swift */,
+				2B7415CB28216C4500F328AB /* LegendViewEditSupersetView.swift */,
+				2BD5A32F27B4244E0038EC78 /* LegendViewSupersetView.swift */,
+				2B8A6DF527A8ACC6000158F0 /* AddExerciseView.swift */,
+				2B40ABB127B3184F003DA155 /* AddExerciseModelView.swift */,
+				2B40ABAF27B31751003DA155 /* AddSupersetView.swift */,
+				2B40ABB327B3210A003DA155 /* SingleExerciseSupersetView.swift */,
+				2B1665CE27A9660900A36E71 /* SetsViewDetailView.swift */,
+				2BD5A32D27B41A130038EC78 /* SetsViewDetailViewSuperset.swift */,
+				2B8A6DF927A8ACE5000158F0 /* AddExerciseSetView.swift */,
+				2BD5A32927B3F6FF0038EC78 /* AddSupersetSetsView.swift */,
+				2B91AB0A27A9805200B611F4 /* PlansView.swift */,
+				2BB0C63027A9A367004A1701 /* PlanCard.swift */,
+				2B68E5CC27AD630F0091EC86 /* PlanCloudCardView.swift */,
+				2BE08D8127BFE499006D2E74 /* PublishedPlanCardView.swift */,
+				2B1C09B727C2D29000AA0B77 /* PublishedPlanShopInfoCard.swift */,
+				2B91AB1927A99D0200B611F4 /* TimerView.swift */,
+				2B91AB1027A982DD00B611F4 /* AddPlanView.swift */,
+				2B91AB0E27A982B800B611F4 /* PlanViewDetail.swift */,
+				2BD40B4D27C59BE500A24ADB /* UpdatePlanNotesView.swift */,
+				2BD3C85327B0297D004C4BC1 /* SetItemView.swift */,
+				2B28212227C9055600691341 /* SetItemViewEdit.swift */,
+				2BD3C85527B02A6B004C4BC1 /* SetItemTextFieldView.swift */,
+				2B11A93427C530D9009597B4 /* CustomTextEditor.swift */,
+				2BFD68D527AEBB2B004B28BB /* Extensions.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2BE33B6C27AC1D160022CDEB /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				2BE33B6D27AC1D3A0022CDEB /* LoginViewModel.swift */,
+				2BE33B6F27AC1D5E0022CDEB /* RegisterViewModel.swift */,
+				2B424E8C27C3CF9D00ED838A /* ShopViewViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B8A6DD827A8AC49000158F0 /* Plans */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B8A6DEC27A8AC4B000158F0 /* Build configuration list for PBXNativeTarget "Plans" */;
+			buildPhases = (
+				2B8A6DD527A8AC49000158F0 /* Sources */,
+				2B8A6DD627A8AC49000158F0 /* Frameworks */,
+				2B8A6DD727A8AC49000158F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Plans;
+			packageProductDependencies = (
+				2B78558E27B1677300B1235E /* SwiftUICharts */,
+			);
+			productName = PlansNew;
+			productReference = 2B8A6DD927A8AC49000158F0 /* Plans.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B8A6DD127A8AC49000158F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					2B8A6DD827A8AC49000158F0 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 2B8A6DD427A8AC49000158F0 /* Build configuration list for PBXProject "Plans" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B8A6DD027A8AC49000158F0;
+			packageReferences = (
+				2B78558D27B1677300B1235E /* XCRemoteSwiftPackageReference "ChartView" */,
+			);
+			productRefGroup = 2B8A6DDA27A8AC49000158F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B8A6DD827A8AC49000158F0 /* Plans */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B8A6DD727A8AC49000158F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B8A6DE427A8AC4B000158F0 /* Preview Assets.xcassets in Resources */,
+				2B8A6DE127A8AC4B000158F0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B8A6DD527A8AC49000158F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BD5A33227B42FD20038EC78 /* SupersetDetailView.swift in Sources */,
+				2BD3C85627B02A6B004C4BC1 /* SetItemTextFieldView.swift in Sources */,
+				2B78558927B15A1F00B1235E /* StatsCalculator.swift in Sources */,
+				2B9E7E8A27CE791600E0715A /* SupersetStatView.swift in Sources */,
+				2BC7E34027B53857002C53E7 /* ExercisesDBList.swift in Sources */,
+				2B8A6DF427A8ACAE000158F0 /* ExerciseDetailView.swift in Sources */,
+				2B8A6DE627A8AC4B000158F0 /* Persistence.swift in Sources */,
+				2B462111282153AB00E5DCE6 /* SupersetStatsSettingsDetailView.swift in Sources */,
+				2BE08D8227BFE499006D2E74 /* PublishedPlanCardView.swift in Sources */,
+				2B8A6DF027A8AC78000158F0 /* MainTabbedView.swift in Sources */,
+				2B8A6DFA27A8ACE5000158F0 /* AddExerciseSetView.swift in Sources */,
+				2B78558627B1545100B1235E /* ExerciseStatView.swift in Sources */,
+				2B1C09B827C2D29100AA0B77 /* PublishedPlanShopInfoCard.swift in Sources */,
+				2B424E8D27C3CF9D00ED838A /* ShopViewViewModel.swift in Sources */,
+				2BE33B6E27AC1D3A0022CDEB /* LoginViewModel.swift in Sources */,
+				2B8EBC3C28218345005F47B9 /* EditSupersetView.swift in Sources */,
+				2B40ABB227B3184F003DA155 /* AddExerciseModelView.swift in Sources */,
+				2BAE4C1027C13DB700A7B519 /* ShopView.swift in Sources */,
+				2B8A6DE927A8AC4B000158F0 /* Plans.xcdatamodeld in Sources */,
+				2BE33B7427AC204A0022CDEB /* AccountView.swift in Sources */,
+				2B91AB1127A982DD00B611F4 /* AddPlanView.swift in Sources */,
+				2B28212327C9055600691341 /* SetItemViewEdit.swift in Sources */,
+				2BE33B6927AC1CB70022CDEB /* LoginView.swift in Sources */,
+				2B8A6DF227A8AC8F000158F0 /* HomeView.swift in Sources */,
+				2B86883427A9767800881885 /* LegendViewExerciseSets.swift in Sources */,
+				2B28212127C9047800691341 /* LegendViewEditExerciseSets.swift in Sources */,
+				2B91AB0F27A982B800B611F4 /* PlanViewDetail.swift in Sources */,
+				2B28211F27C8F9C800691341 /* EditExerciseView.swift in Sources */,
+				2B99D19527AC2B4400E43AAE /* InternetConnectionManager.swift in Sources */,
+				2B8A6DF827A8ACD7000158F0 /* ModelsAddExercise.swift in Sources */,
+				2B40ABB027B31751003DA155 /* AddSupersetView.swift in Sources */,
+				2B2395CB27AC41D100C7D64F /* PlanEncoder.swift in Sources */,
+				2B68E5C927AD5F140091EC86 /* PersonalPlansView.swift in Sources */,
+				2BE33B6B27AC1CC10022CDEB /* RegisterView.swift in Sources */,
+				2B78558427B150BB00B1235E /* ExerciseListStatsView.swift in Sources */,
+				2BD5A33027B4244E0038EC78 /* LegendViewSupersetView.swift in Sources */,
+				2B7415CA2821666900F328AB /* SingleSupersetEditView.swift in Sources */,
+				2B600CC627A9EF8000B2BE18 /* ApiModels.swift in Sources */,
+				2BE275C428291A25005A0EE6 /* ShopPlanDetailView.swift in Sources */,
+				2BC21F2927B32F5A0007C002 /* FilteredExerciseDetailView.swift in Sources */,
+				2B91AB1A27A99D0200B611F4 /* TimerView.swift in Sources */,
+				2B11A93527C530D9009597B4 /* CustomTextEditor.swift in Sources */,
+				2BB0C63127A9A367004A1701 /* PlanCard.swift in Sources */,
+				2BE33B7027AC1D5E0022CDEB /* RegisterViewModel.swift in Sources */,
+				2B1EEA0127B04110008BD60A /* StatsEncoder.swift in Sources */,
+				2B46210F2821524B00E5DCE6 /* SupersetStatsSettingsView.swift in Sources */,
+				2B40ABB427B3210A003DA155 /* SingleExerciseSupersetView.swift in Sources */,
+				2B9E7E8C27CE85C000E0715A /* SingleSupersetStatsDetailView.swift in Sources */,
+				2B9E7E8E27CE9EE000E0715A /* StatsCalculatorSupersets.swift in Sources */,
+				2B8A6DDD27A8AC49000158F0 /* PlansApp.swift in Sources */,
+				2BC21F2B27B330680007C002 /* SupersetExerciseDetailView.swift in Sources */,
+				2BE275C628291E6D005A0EE6 /* SingleDayShopPlanPreview.swift in Sources */,
+				2BD40B4E27C59BE500A24ADB /* UpdatePlanNotesView.swift in Sources */,
+				2B7415CC28216C4500F328AB /* LegendViewEditSupersetView.swift in Sources */,
+				2BAE4C0E27C1372100A7B519 /* ShopFilterView.swift in Sources */,
+				2BD5A32E27B41A130038EC78 /* SetsViewDetailViewSuperset.swift in Sources */,
+				2B91AB1627A98B5900B611F4 /* FilteredListView.swift in Sources */,
+				2B8A6DF627A8ACC6000158F0 /* AddExerciseView.swift in Sources */,
+				2B8A6DFC27A8ACFB000158F0 /* CoreDataManager.swift in Sources */,
+				2BE33B7227AC1E000022CDEB /* FirstView.swift in Sources */,
+				2B9071A528214148006DA070 /* ExerciseStatsSettingsDetailView.swift in Sources */,
+				2BD5A32A27B3F6FF0038EC78 /* AddSupersetSetsView.swift in Sources */,
+				2B5A3134282155A500B9C6DC /* ExerciseNotesView.swift in Sources */,
+				2BD3C85427B0297D004C4BC1 /* SetItemView.swift in Sources */,
+				2B91AB1827A98E0900B611F4 /* PickerManager.swift in Sources */,
+				2B91AB1427A98AF100B611F4 /* NotificationsManager.swift in Sources */,
+				2B68E5CD27AD630F0091EC86 /* PlanCloudCardView.swift in Sources */,
+				2B91AB0B27A9805200B611F4 /* PlansView.swift in Sources */,
+				2BE08D8027BFDB29006D2E74 /* PublishedPlansView.swift in Sources */,
+				2B600CC827A9EF8C00B2BE18 /* ApiManager.swift in Sources */,
+				2B9071A328213A3E006DA070 /* ExerciseStatsSettingsView.swift in Sources */,
+				2BFD68D627AEBB2B004B28BB /* Extensions.swift in Sources */,
+				2B9E7E8827CE779800E0715A /* ExerciseStatsDetailView.swift in Sources */,
+				2B1665CF27A9660900A36E71 /* SetsViewDetailView.swift in Sources */,
+				2B91AB0D27A981E600B611F4 /* CurrentPlanManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2B8A6DEA27A8AC4B000158F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2B8A6DEB27A8AC4B000158F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B8A6DED27A8AC4B000158F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Plans/Preview Content\"";
+				DEVELOPMENT_TEAM = EFAJLW3PK8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Plans/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AlessioMarcuzzi.Plans;
+				PRODUCT_NAME = Plans;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2B8A6DEE27A8AC4B000158F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Plans/Preview Content\"";
+				DEVELOPMENT_TEAM = EFAJLW3PK8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Plans/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AlessioMarcuzzi.Plans;
+				PRODUCT_NAME = Plans;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B8A6DD427A8AC49000158F0 /* Build configuration list for PBXProject "Plans" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B8A6DEA27A8AC4B000158F0 /* Debug */,
+				2B8A6DEB27A8AC4B000158F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B8A6DEC27A8AC4B000158F0 /* Build configuration list for PBXNativeTarget "Plans" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B8A6DED27A8AC4B000158F0 /* Debug */,
+				2B8A6DEE27A8AC4B000158F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2B78558D27B1677300B1235E /* XCRemoteSwiftPackageReference "ChartView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/ChartView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2B78558E27B1677300B1235E /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2B78558D27B1677300B1235E /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		2B8A6DE727A8AC4B000158F0 /* Plans.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2B8A6DE827A8AC4B000158F0 /* PlansNew.xcdatamodel */,
+			);
+			currentVersion = 2B8A6DE827A8AC4B000158F0 /* PlansNew.xcdatamodel */;
+			path = Plans.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2B8A6DD127A8AC49000158F0 /* Project object */;
+}
